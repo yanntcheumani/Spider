@@ -40,4 +40,4 @@ optional arguments:
 <p>For example, run <code>python3 spider.py yann_tcheumani</code></p>
 <h2>Views</h2>
 <a target="_blank" rel="noopener noreferrer" href="/yanntcheumani/Hack/blob/master/screenshot/preview.png">
-<img src="/yanntcheumani/Spider/raw/master/screenshot/preview.png" style="max-width:100%;"></a>
+<img src="/screenshot/preview.png" style="max-width:100%;"></a>
