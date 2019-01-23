@@ -18,22 +18,22 @@ $ pip3 install -r requirements.txt</pre></div>
 ------------
 <h2>Utilisations</h2>
 <div class="highlight highlight-source-shell"><pre>
-(venv) C:\Users\Anonyme\PycharmProjects\Spiders>py spider.py --help
-usage: spider.py [-h] [--version] [--verbose] [--site SITE_NAME]
-                 Pseudo [Pseudo ...]
-
-Spider: Find Usernames Across Social Networks (Version 1.0)
-
+usage: spider.py [-h] [--version] [--verbose] [--csv] [--site SITE_NAME]
+                 [--json]
+                 Pseudo [Pseudo ...]  
+Spider: Find Usernames Across Social Networks (Version 1.2)
 positional arguments:
-  Pseudo                One or more usernames to check with social networks.
-
+Pseudo         One or more usernames to check with social networks.
 optional arguments:
-  -h, --help            show this help message and exit
-  --version             Display version information and dependencies.
-  --verbose, -v, -d, --debug
-                        Display extra debugging information and metrics.
-  --site SITE_NAME      Limit analysis to just the listed sites. Add multiple
-                        options to specify more than one site.
+      -h, --help            show this help message and exit
+      --version             Display version information and dependencies.
+      --verbose, -v, -d, --debug
+                            Display extra debugging information and metrics.
+      --csv                 Create Comma-Separated Values (CSV) File.
+      --site SITE_NAME      Limit analysis to just the listed sites. Add multiple
+                            options to specify more than one site.
+      --json                create json of result
+
 </pre>
 
 ---------------
